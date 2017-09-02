@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica,
+	sans-serif;
+	background-color: #87CEEB;
+}
+.crystals {
+	display: flex; 
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+.crystal {
+	border:1px solid green;
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+}
+
+#title{
+
+	height: 100px;
+	width: 200px;
+	border: 1px;
+	text-align: center;
+	font-size: 200%;
+	margin-top: 20px;
+	font-weight: 700;
+
+}
+
+#result{
+	font-size: 35px;
+}
+
+#yourscore{
+	font-size: 35px;
+}
+
+#win{
+	font-size: 30px;
+}
+
+#loss{
+	font-size: 30px;
+}
